@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+
+        @font-face {
+        font-family: 'Source Sans Pro';
+        src: url('./assets/fonts/SourceSansPro-Bold.ttf') format('truetype');
+        font-weight: 700;
+        
+        }
+
+
+        @font-face {
+        font-family: 'Source Sans Pro';
+        src: url('./assets/fonts/SourceSansPro-Semibold.ttf') format('truetype');
+        font-weight: 600;
+        
+        }
+
+        @font-face {
+        font-family: 'Source Sans Pro';
+        src: url('./assets/fonts/SourceSansPro-Regular.ttf') format('truetype');
+        font-weight: 400;
+        
+        }
+
+
+        @font-face {
+        font-family: 'Source Sans Pro';
+        src: url("./assets/fonts/SourceSansPro-Light.ttf") format('truetype');
+        font-weight: 300;
+        
+        }
+
+</style>
+
+</head>
+<body>
+    <div class="header">
+        <div class="logo-container"> 
+            <div class="logo">
+            <a href="#"> <svg viewBox="0 0 111 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="default-ltr-cache-4wvxq9-StyledBrandLogo ev1dnif2"><g><path d="M105.06233,14.2806261 L110.999156,30 C109.249227,29.7497422 107.500234,29.4366857 105.718437,29.1554972 L102.374168,20.4686475 L98.9371075,28.4375293 C97.2499766,28.1563408 95.5928391,28.061674 93.9057081,27.8432843 L99.9372012,14.0931671 L94.4680851,-5.68434189e-14 L99.5313525,-5.68434189e-14 L102.593495,7.87421502 L105.874965,-5.68434189e-14 L110.999156,-5.68434189e-14 L105.06233,14.2806261 Z M90.4686475,-5.68434189e-14 L85.8749649,-5.68434189e-14 L85.8749649,27.2499766 C87.3746368,27.3437061 88.9371075,27.4055675 90.4686475,27.5930265 L90.4686475,-5.68434189e-14 Z M81.9055207,26.93692 C77.7186241,26.6557316 73.5307901,26.4064111 69.250164,26.3117443 L69.250164,-5.68434189e-14 L73.9366389,-5.68434189e-14 L73.9366389,21.8745899 C76.6248008,21.9373887 79.3120255,22.1557784 81.9055207,22.2804387 L81.9055207,26.93692 Z M64.2496954,10.6561065 L64.2496954,15.3435186 L57.8442216,15.3435186 L57.8442216,25.9996251 L53.2186709,25.9996251 L53.2186709,-5.68434189e-14 L66.3436123,-5.68434189e-14 L66.3436123,4.68741213 L57.8442216,4.68741213 L57.8442216,10.6561065 L64.2496954,10.6561065 Z M45.3435186,4.68741213 L45.3435186,26.2498828 C43.7810479,26.2498828 42.1876465,26.2498828 40.6561065,26.3117443 L40.6561065,4.68741213 L35.8121661,4.68741213 L35.8121661,-5.68434189e-14 L50.2183897,-5.68434189e-14 L50.2183897,4.68741213 L45.3435186,4.68741213 Z M30.749836,15.5928391 C28.687787,15.5928391 26.2498828,15.5928391 24.4999531,15.6875059 L24.4999531,22.6562939 C27.2499766,22.4678976 30,22.2495079 32.7809542,22.1557784 L32.7809542,26.6557316 L19.812541,27.6876933 L19.812541,-5.68434189e-14 L32.7809542,-5.68434189e-14 L32.7809542,4.68741213 L24.4999531,4.68741213 L24.4999531,10.9991564 C26.3126816,10.9991564 29.0936358,10.9054269 30.749836,10.9054269 L30.749836,15.5928391 Z M4.78114163,12.9684132 L4.78114163,29.3429562 C3.09401069,29.5313525 1.59340144,29.7497422 0,30 L0,-5.68434189e-14 L4.4690224,-5.68434189e-14 L10.562377,17.0315868 L10.562377,-5.68434189e-14 L15.2497891,-5.68434189e-14 L15.2497891,28.061674 C13.5935889,28.3437998 11.906458,28.4375293 10.1246602,28.6868498 L4.78114163,12.9684132 Z"></path></g></svg></a>
+            
+            </div>
+            <div class="hamburger">
+            <i class="fa-solid fa-bars icon" style="color: white;"></i>
+            </div>
+        </div>
+        <nav class="navigation">
+            <ul class="nav-links-container">
+                <li class="nav-links"><a class="list" href="#">
+                    Home
+                </a></li>
+                <li class="nav-links services"><a  class="list" href="#">
+                    Services
+                    <i class="fa-solid fa-angle-up fa-flip-vertical"></i>
+                </a>
+
+                
+            
+                <div class="overlay">
+                    <ul class="overlay-links-container">
+                        <li class="overlay-links">option-1</li>
+                        <li class="overlay-links">option-2</li>
+                        <li class="overlay-links">option-3</li>
+                    </ul>
+
+                </div>
+                </li>
+                <li class="nav-links"><a class="list" href="#">
+                    Location
+                </a></li>
+                <li class="nav-links"><a class="list"  href="#">
+                    Demo
+                </a></li>
+            </ul>
+        </nav>
+
+        
+    </div>
+
+    <div class="home-page">
+       <div class="inner-part">
+            <i class="fa-solid fa-cloud home" style="color: #ffffff;"></i>
+            <p class="home-para-1">
+                Hi, I'm <span class="photon-span">Photon</span>, another fine
+                little freebie from <span class="html5-span">HTML5 UP</span>.
+            </p>
+            <p  class="home-para-2">
+                Accumsan feugiat mi commodo erat lorem ipsum, sed magna
+                lobortis feugiat sapien sed etiam volutpat accumsan.
+            </p>
+            <button  class="home-btn">
+                DISCOVER
+            </button>
+       </div>
+    </div>
+
+    <div class="section-2">
+        <div class="section-2-container">
+
+            <div class="sec-2-card-1">
+                <p class="sec-2-para-1">Lorem ipsum dolor adipiscing
+                    amet dolor consequat</p>
+
+                <p class="sec-2-para-2">Adipiscing a commodo ante nunc accumsan et interdum mi ante adipiscing. A nunc lobortis non nisl amet vis sed volutpat aclacus nascetur ac non. Lorem curae et ante amet sapien sed tempus adipiscing id accumsan.
+
+                </p>
+            </div>
+            <div class="sec-2-card-2">
+                <img class="card-img" src="./assets/images/pic01.jpg">
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="section-3">
+        <div class="sec-3-container">
+            <div class="col-1">
+                <div class="icon-col">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-code tilted-icon" style="color: #c7e04d;"></i>
+                    </div>
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-camera-retro tilted-icon" style="color: #63E6BE;"></i>
+                    </div>
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-desktop tilted-icon" style="color: #3163b9;"></i>
+                    </div>
+                    
+                </div>
+                <div class="icon-col">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-bolt-lightning tilted-icon" style="color: #B197FC;"></i>
+                    </div>
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-gear tilted-icon" style="color: #407add;"></i>
+                    </div>
+                    <div class="icon-wrapper">
+                       <i class="fa-solid fa-calendar tilted-icon" style="color: #4f11df;"></i>
+                    </div>
+                    
+                </div>
+
+            </div>
+            <div class="col-2">
+
+                <p class="col-2-para-1">Lorem ipsum dolor adipiscing
+amet dolor consequat</p>
+
+                <p class="col-2-para-2">
+                    Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.
+                </p>
+
+                <p class="col-2-para-3">
+                    Blandit faucibus proin. Ac aliquam integer adipiscing enim non praesent vis commodo nunc phasellus cubilia ac risus accumsan. Accumsan blandit. Lobortis phasellus non lobortis dit varius mi varius accumsan lobortis. Blandit ante aliquam lacinia lorem lobortis semper morbi col faucibus vitae integer placerat accumsan orci eu mi odio tempus adipiscing adipiscing adipiscing curae consequat feugiat etiam dolore.
+                </p>
+
+                <p class="col-2-para-4">
+                    Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="section-4">
+        <div class="sec-4-heading">
+            <p class="sec-4-heading-1">
+                Adipiscing amet consequat
+            </p>
+            <p class="sec-4-heading-2">
+                Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.
+            </p>
+        </div>
+
+        <div class="section-4-container">
+
+            <div class="sec-4-card">
+                <img class="sec-4-card-img" src="./assets/images/pic02.jpg">
+
+                <p class="sec-4-card-p1">
+                    Magna feugiat lorem
+                </p>
+
+                <p class="sec-4-card-p2">
+                    Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.
+                </p>
+
+                <button class="sec-4-btn">
+                    MORE
+                </button>
+            </div>
+
+            <div class="sec-4-card">
+                <img class="sec-4-card-img" src="./assets/images/pic03.jpg">
+
+                <p class="sec-4-card-p1">
+                    Magna feugiat lorem
+                </p>
+
+                <p class="sec-4-card-p2">
+                    Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.
+                </p>
+
+                <button class="sec-4-btn">
+                    MORE
+                </button>
+
+            </div>
+
+            <div class="sec-4-card">
+                <img class="sec-4-card-img" src="./assets/images/pic04.jpg">
+
+                <p class="sec-4-card-p1">
+                    Magna feugiat lorem
+                </p>
+
+                <p class="sec-4-card-p2">
+                    Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.
+                </p>
+
+                <button class="sec-4-btn">
+                    MORE
+                </button>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section-5">
+        <div class="sec-5-header">
+            <p class="sec-5-header-p1">
+                Ipsum feugiat consequat?
+            </p>
+            <p class="sec-5-header-p2">
+                Sed lacus nascetur ac ante amet sapien.
+            </p>
+        </div>
+
+        <div class="sec-5-flex-container">
+            <button class="sign-up-btn">SIGN UP</button>
+            <button class="learn-btn">LEARN MORE</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <ul class="list-1">
+                <li>
+                    <a class="footer-anchor" href="#">
+                        <i class="fa-brands fa-twitter footer-icon" style="color: #ffffff;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="footer-anchor" href="#">
+                        <i class="fa-brands fa-facebook-f footer-icon" style="color: #ffffff;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="footer-anchor" href="#">
+                        <i class="fa-brands fa-instagram footer-icon" style="color: #fcfcfc;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="footer-anchor" href="#">
+                        <i class="fa-brands fa-github footer-icon" style="color: #f7f7f7;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="footer-anchor" href="#">
+                        <i class="fa-solid fa-envelope footer-icon" style="color: #ffffff;"></i>
+                    </a>
+                </li>
+
+            </ul>
+
+            <div class="list-2">
+                <p class="footer-link">© Untitled</p>
+                <p class="footer-link border-link">Design: <span class="footer-span">HTML5 UP</span></p>
+                <p class="footer-link">Demo Images: <span class="footer-span">Unsplash</span></p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
